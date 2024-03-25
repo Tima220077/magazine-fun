@@ -1,0 +1,95 @@
+body{
+  background-color: rgba(220, 220, 220, 0.507);
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+header div h1{
+  flex-grow: 1;
+  padding: 0 15;
+}
+header div{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 15;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li{
+  display: flex;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 150px;
+}
+main div{
+  background-color: rgb(255, 255, 255);
+  max-height: 350px;
+  width: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 15px;
+  margin: 40px;
+  border-radius: 8px;
+  flex-grow: 2;
+  max-width: 400px;
+  width: calc((100% / 3) - 40px);
+}
+main div p{
+  color: rgb(4, 255, 0);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  margin-bottom: 15;
+  padding: 0;
+}
+main div h1{
+  margin-bottom: 15hz;
+}
+main div button{
+  border: 0;
+  color: rgb(255, 0, 0);
+  background-color: rgb(203, 203, 203);
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  
+}
+main div:hover{
+  opacity: 0.7;
+  transition: 0.3s;
+  
+}
+footer{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
+footer div{
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
